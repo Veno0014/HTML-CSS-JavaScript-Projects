@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Title of the form-->
+    <title> Application form</title>
+
+    <meta charset="utf-8" meta name="viewport" content="width=device-width, initial -scale = 1.0">
+
+    <!--Internal CSS-->
+    <style>
+        * {
+            padding: 2px;
+        }
+
+        /*Styling the Body*/
+        body {
+            display: flex;
+            align-content: center;
+        }
+
+        /*Styling the form*/
+        form {
+            width: 99%;
+            padding: 5px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        /*Styling the Form Label*/
+        form label {
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        /*Styling the Form Input*/
+        form input {
+            width: 100%;
+        }
+
+        /*Styling comment box*/
+        .commentbox textarea {
+            width: 99%;
+            height: 100px;
+            padding: 15px;
+            margin-bottom: 10px;
+
+        }
+
+        /*Styling the button*/
+        .submit {
+            background-color: green;
+            color: white;
+            width: 100%;
+            height: 50px;
+            font-size: medium;
+            border-radius: 0%;
+
+        }
+
+    </style>
+</head>
+
+<body>
+<form>
+    <!--Heading-->
+    <h1 class="heading"> Victoria Job Application Form</h1>
+    <!--Name-->
+    <label>Full Name:</label>
+    <input type="text" placeholder=".">
+
+    <!--Break Element-->
+    <br>
+
+    <!--Email content-->
+    <label>Email:</label>
+    <input type="text" placeholder=".">
+
+    <!--Break Element-->
+    <br>
+
+    <!--Attach File-->
+    <label>Attach C.V</label>
+    <input type="file" id="real-file-upload" hidden>
+
+    <!--Creating Upload element-->
+    <div class="container">
+        <button class="button" custom-file-upload>Choose File</button>
+        <span id="file-name">No File Chosen</span>
+    </div>
+
+    <!--Adding Comment box-->
+    <div class="commentbox">
+        <label>Motivation </label>
+        <textarea id="comment"></textarea>
+    </div>
+
+    <!--Creating attach photo button-->
+    <label>Attach Photo</label>
+    <input type="file" id="real-file-upload" hidden>
+    <div class="container">
+        <button class=btn custom-file-upload>Choose File</button>
+        <span id="file-name">No File Chosen</span>
+    </div>
+
+    <br>
+    <br>
+
+    <!--Creating Submit application button-->
+    <button type="button" class="submit">Submit Application</button>
+</form>
+</body>
+</html>
