@@ -1,0 +1,99 @@
+/*Designing dropdown menu*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+/*Designing body*/
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    min-height: 100%;
+}
+
+/*Centering Image*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10cm;
+    height: 5cm;
+}
+
+/*Designing header*/
+header {
+    padding: 5px; 
+    background-color: rgb(4, 49, 116);
+}
+
+
+h1 {
+    color: #FFF;
+}
+
+html {
+    height: 100%;
+}
+
+/*Designing unorder list*/
+ul {
+   list-style: none;
+   text-align: center;
+   background-color: rgb(4, 49, 116);  
+}
+
+/*Designing unorder list*/
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/*Designing unorder list*/
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Designing dropdown list list*/
+ul li ul.dropdown li{
+    display: block;
+    background: #333;
+    margin: 2px 0px;
+}
+
+ul li ul.dropdown {
+    width: auto;
+    background: #00ffaC;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #222;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+
+
+}
+
+/*Designing footer*/
+footer {
+    background: black;
+    padding: 10px 20px;
+    display: grid;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
