@@ -1,0 +1,89 @@
+/*Designing the body*/
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/*Wrapping the colour around the image*/
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;  
+    background-color: rgb(4, 49, 116);  
+    width: 100%;
+    
+}
+
+/*Centering image*/
+.img-eye{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Styling & centering words*/
+h1{
+    text-align: center;
+    align-items: center;
+}
+
+/*Styling & centering words*/
+h4{
+    text-align: center;
+    
+}
+
+/* Designing form*/
+.signupform{
+    width: 300px;
+    margin-left: 20px;
+    text-align: center; 
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+/*Styling labels*/
+form label{
+    display: absolute;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Styling input*/
+form input{
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    border:none;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+/*Styling button*/
+button{
+    width: 320px;
+    height: 35px;
+    margin: top 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Styling footer*/
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+}
