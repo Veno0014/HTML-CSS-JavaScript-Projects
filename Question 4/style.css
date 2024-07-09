@@ -1,0 +1,39 @@
+/*Designing the body*/
+body {
+    background-color: white;
+}
+
+/*Designing the Header*/
+.heading {
+    background-color: rgb(34, 153, 85);
+   
+}
+
+/*Designing the table*/
+.content-table {
+    border-collapse: collapse;
+    font-size: 0,9;
+    width: 25cm;
+    height: 5cm;
+    padding: 5cm;
+    border-bottom: rgb(209, 224, 209);
+    display: inline;
+}
+
+/*Designing the bottom part of the table*/
+.head2{
+    background-color: rgb(212, 250, 197);
+    text-align: center;
+    border-radius: 5cm;
+    padding: 20px;
+}
+
+table td {
+    padding: 8px;
+    border-bottom: 8px solid #ffff;
+}
+
+table th{
+    padding: 8px;
+    border-bottom: 8px solid #ffff;
+}
