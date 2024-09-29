@@ -1,0 +1,58 @@
+/*Designing the body*/
+body {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Hiding and print user output*/
+.hide{
+    display: none;
+}
+
+/*Designing the form*/
+.content {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Aligning output*/
+p {
+    text-align: center;
+}
+
+
+/*Designing image to match assessignment*/
+img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+    
+ /*Designing the input icons*/   
+input {
+  display: block;
+  width: 100%;
+  align-items: center;
+}
+
+/*Designing Table*/
+.opt {
+    display: block;
+    width: 100%;
+}
+
+/*Designing Button*/
+.submit {
+    background-color: rgb(252, 15, 15);
+    color: rgb(226, 218, 218);
+    width: 100%;
+    border: 0;
+    height: 25px;
+}
+
+
