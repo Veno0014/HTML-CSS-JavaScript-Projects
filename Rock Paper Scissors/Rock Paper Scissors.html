@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale = 1.0">
+        <title>Rock Paper Scissors</title>
+        <!--External CSS Style Sheet-->
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <!--Heading-->
+        <h1> Rock, Paper, Scissors</h1>
+
+        <br>
+        <br>
+
+        <!--Connect the HTML to JavaScript-->
+        <div class = "options"> 
+            <button class = "Rock" onclick = "Play('rock')">Rock</button>
+            <button class = "Paper" onclick = "Play('paper')">Paper</button>
+            <button class = "Scissors" onclick = "Play('scissors')">Scissors</button>
+        </div>
+
+        <!--Connecting users and computers choices to JavaScript-->
+       <div class = "choices">
+            <div id = "userDisplay"></div>
+            <div id = "comDisplay"></div>
+            <div id = "resultsDisplay"></div>
+       </div>
+
+       <!--JavaScript-->
+        <script src = "script.js"></script>
+    </body>
+</html>

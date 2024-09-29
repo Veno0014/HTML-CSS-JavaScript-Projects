@@ -1,0 +1,65 @@
+/*Designing Body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Designing Heading*/
+h1 {
+    font-size: 30px;
+    color:black;
+}
+
+/*Designing choices*/
+.options {
+    margin-bottom: 30px;
+}
+
+/*Designing option buttons*/
+.options button{
+    min-width: 160px;
+    margin:0 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+/*Designing Rock buttons*/
+.Rock {
+    font-size: medium;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: red;
+}
+
+/*Designing Paper buttons*/
+.Paper{
+    font-size: medium;
+    height: 50px;
+    color: white;
+    width: 100px;
+    border: none;
+    background-color: green;
+}
+
+/*Designing Scissors buttons*/
+.Scissors {
+    font-size: medium;
+    height: 50px;
+    width: 100px;
+    border-radius: 0;
+    border: none;
+    background-color: yellow;
+}
+
+/*Informs the user if they won or lost*/
+.choices {
+    font-size: 30px;
+}
+
+
